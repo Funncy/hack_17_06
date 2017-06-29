@@ -1,0 +1,31 @@
+Member
+MemKey, ID, PW, Name, StudentNum, Phone, MajorKey, Introduce, MessageFlag, ProjectFlag, AndroidFlag, WebFlag, IOSFlag, DesignFlag
+
+Project
+ProKey, ProName, ProLeader, ProLogo(기본값 널), ProIntroduce, ProDate, RecruitFlag, AndroidFlag, WebFlag, IOSFlag, DesignFlag
+
+Message
+MesKey, SendID, ReceiveID, MesType, MesDate
+
+ProMembers(Member - Project)
+ProMemKey, MemKey, ProKey
+
+Portfolio_Image
+PortImgKey, MemKey, Image
+
+Portfolio_Text 
+PortTxtKey, MemKey, Text
+
+Track_VR
+VRKey, VRName, VRYear, VRSem
+
+Track_SW
+SWKey, SWName, SWYear, SWSem
+
+Major
+1 - 컴공
+2 - 소프트웨어학과
+3 - 정보보호학과
+4 - 데이터사이언스학과
+5 - 지능기전공학부
+6 - 창의소프트학부

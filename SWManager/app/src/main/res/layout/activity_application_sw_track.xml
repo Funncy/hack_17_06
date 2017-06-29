@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lattechiffon.swmanager.Track.ApplicationSwTrack">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/applicationswtrack" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/app_sw_node2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="169dp"
+            android:layout_marginTop="90dp"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/nullnode" />
+
+        <ImageButton
+            android:id="@+id/app_sw_node1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="272dp"
+            android:layout_marginTop="90dp"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/nullnode" />
+
+        <ImageButton
+            android:id="@+id/app_sw_node3"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="272dp"
+            android:layout_marginTop="169dp"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/nullnode" />
+
+        <ImageButton
+            android:id="@+id/app_sw_node4"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="272dp"
+            android:layout_marginTop="240dp"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/nullnode" />
+
+        <ImageButton
+            android:id="@+id/app_sw_node5"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="272dp"
+            android:layout_marginTop="313dp"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/nullnode" />
+
+        <ImageButton
+            android:id="@+id/app_sw_node7"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="169dp"
+            android:layout_marginTop="385dp"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/nullnode" />
+
+        <ImageButton
+            android:id="@+id/app_sw_node8"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="169dp"
+            android:layout_marginTop="450dp"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/nullnode" />
+
+        <ImageButton
+            android:id="@+id/app_sw_node6"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="307dp"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/nullnode" />
+
+        <ImageButton
+            android:id="@+id/app_sw_node9"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="72dp"
+            android:layout_marginTop="435dp"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/nullnode" />
+
+        <TextView
+            android:id="@+id/aswtrackText"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:text="0/6 개전공이 남았습니다."
+            android:textSize="50dp"
+            android:gravity="bottom"
+            />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

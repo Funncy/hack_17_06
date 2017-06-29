@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lattechiffon.swmanager.Project.CreateProjectActivity">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/createProjectName"
+        android:inputType="text"
+        android:layout_centerHorizontal="true"
+        android:hint="프로젝트 이름"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:id="@+id/createProjectInfo"
+        android:inputType="text"
+        android:layout_centerHorizontal="true"
+        android:hint="프로젝트 소개"
+        android:layout_below="@+id/createProjectName" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="안드로이드 개발자 필요"
+        android:id="@+id/createProjectAndroid"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/createProjectInfo"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="웹 개발자 필요"
+        android:id="@+id/createProjectWeb"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/createProjectAndroid"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="iOS 개발자 필요"
+        android:id="@+id/createProjectiOS"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/createProjectWeb"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="디자이너 필요"
+        android:id="@+id/createProjectDesigner"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/createProjectiOS"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/createProjectButton"
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:scaleType="fitXY"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        app:srcCompat="@drawable/createprojectbutton"
+        android:layout_below="@+id/createProjectDesigner"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

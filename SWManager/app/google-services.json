@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "543046878166",
+    "firebase_url": "https://swmanager-e158d.firebaseio.com",
+    "project_id": "swmanager-e158d",
+    "storage_bucket": "swmanager-e158d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543046878166:android:a3897ce91cf0d878",
+        "android_client_info": {
+          "package_name": "com.lattechiffon.swmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543046878166-auc2eugbn2hakrntd62idgqsc71mjfaj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAin3j9DUkVBm6viiA1hO1O_bcnVswuFG0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

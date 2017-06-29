@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#db9d36</color>
+    <color name="colorPrimaryDark">#db9d36</color>
+    <color name="colorAccent">#db9d36</color>
+    <color name="customBarcolor">#db9d36</color>
+</resources>

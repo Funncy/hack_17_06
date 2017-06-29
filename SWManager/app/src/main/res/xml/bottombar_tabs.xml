@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_MyPortfolio"
+        title="나의 포트폴리오"
+        icon="@drawable/portfoliotabcon"
+        barColorWhenSelected="@color/customBarcolor"/>
+    <tab
+        id="@+id/tab_OpenProject"
+        title="열린 프로젝트"
+        icon="@drawable/openprojecttabcon"
+        barColorWhenSelected="@color/customBarcolor"/>
+    <tab
+        id="@+id/tab_MyProject"
+        title="나의 프로젝트"
+        icon="@drawable/myprojecttabcon"
+        barColorWhenSelected="@color/customBarcolor"/>
+    <tab
+        id="@+id/tab_Message"
+        title="나의 메시지"
+        icon="@drawable/messagetabcon"
+        barColorWhenSelected="@color/customBarcolor"/>
+</tabs>
